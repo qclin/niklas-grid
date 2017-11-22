@@ -1,0 +1,135 @@
+@import 'typography.css';
+
+/* Grid */
+.container{
+  max-width: 100%;
+  padding: 0 30px;
+}
+
+.column, .columns {
+    margin-left: .5%;
+}
+
+@media (min-width: 400px) {
+  .container{
+    width: 100%;
+    padding: 0 30px;
+  }
+
+  .column, .columns {
+      margin-left: .5%;
+  }
+}
+
+@media (min-width: 550px) {
+  .container{
+    width: 100%;
+    padding: 0 30px;
+  }
+
+  .column, .columns {
+      margin-left: .5%;
+  }
+
+  .one-half.column                { width: 49.5%; }
+  .three.columns                { width: 24%; }
+
+}
+
+.float-left{
+  float: left;
+}
+.float-right{
+  float: right;
+}
+
+.project-navigation{
+  margin: 1em 0 3em 0; 
+}
+/* Typography */
+
+
+body{
+  font-family: 'gt_americathin';
+  font-size: 1.9em;
+  line-height: 30px;
+  padding-bottom: 3em;
+
+}
+a{
+  text-decoration: none;
+  color:inherit;
+}
+a:hover{
+  text-decoration: underline;
+  color:inherit;
+}
+h1{
+
+}
+h2{
+  font-size: 1.9rem;
+  line-height: 30px;
+
+}
+h3{
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+p{
+  font-family: 'gt_americaultra_light';
+}
+.p-small{
+  font-size: 1.5rem;
+  margin: 0;
+}
+.img-fit{
+  max-width: 100%;
+}
+
+
+/* Layout */
+
+img{
+  margin: 0;
+  padding: 0;
+}
+
+.row{
+  margin: 0;
+  padding: 0;
+}
+
+.project-image:hover{
+  filter: blur(1px) grayscale(100%);
+}
+
+.project-info{
+  position: relative;
+  text-align: center;
+}
+
+.project-title{
+  display: none;
+  margin: 0;
+  opacity: .8;
+  background: #fff;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.project-title p{
+  margin-top: 40%;
+  transform: translate(0, -50%);
+}
+
+.project-info:hover .project-title, .project-info.hover .project-title { display: block; }
+
+
+/* Project detail page */
+.project-image-cover{
+  width: 100%;
+  max-height: auto;
+  object-fit: cover;
+}

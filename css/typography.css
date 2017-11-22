@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'gt_americaregular';
+    src: url('./fonts/gt-america-regular-webfont.woff2') format('woff2'),
+         url('./fonts/gt-america-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gt_americathin';
+    src: url('./fonts/gt-america-thin-webfont.woff2') format('woff2'),
+         url('./fonts/gt-america-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gt_americaultra_light';
+    src: url('./fonts/gt-america-ultra-light-webfont.woff2') format('woff2'),
+         url('./fonts/gt-america-ultra-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
