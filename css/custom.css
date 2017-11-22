@@ -6,7 +6,13 @@
   padding: 0 30px;
 }
 
-.column, .columns {
+@media (min-width: 550px) {
+  .container{
+    width: 100%;
+    padding: 0 30px;
+  }
+  
+/*.column, .columns {
     margin-left: .5%;
 }
 
@@ -21,11 +27,7 @@
   }
 }
 
-@media (min-width: 550px) {
-  .container{
-    width: 100%;
-    padding: 0 30px;
-  }
+
 
   .column, .columns {
       margin-left: .5%;
@@ -42,7 +44,7 @@
 .float-right{
   float: right;
 }
-
+*/
 .project-navigation{
   margin: 1em 0 3em 0; 
 }
@@ -52,7 +54,7 @@
 body{
   font-family: 'gt_americathin';
   font-size: 1.9em;
-  line-height: 30px;
+  line-height: 1.6em;
   padding-bottom: 3em;
 
 }
@@ -70,6 +72,7 @@ h1{
 h2{
   font-size: 1.9rem;
   line-height: 30px;
+  margin-bottom: 1.6em;
 
 }
 h3{
@@ -84,21 +87,27 @@ p{
   font-size: 1.5rem;
   margin: 0;
 }
-.img-fit{
+/*.img-fit{
   max-width: 100%;
-}
+}*/
 
 
 /* Layout */
 
-img{
-  margin: 0;
-  padding: 0;
+.navigation{
+  padding-top: 1.6em;
+}
+
+.thumb{
+  width: 100%;
 }
 
 .row{
   margin: 0;
   padding: 0;
+}
+.project-image{
+  object-fit: cover;
 }
 
 .project-image:hover{
