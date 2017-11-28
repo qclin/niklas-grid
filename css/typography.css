@@ -1,25 +1,72 @@
-@font-face {
-    font-family: 'gt_americaregular';
-    src: url('./fonts/gt-america-regular-webfont.woff2') format('woff2'),
-         url('./fonts/gt-america-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+/* Sizes */
+/* 0.7085em;/*lh xxs */
+
+/* 1.275rem;/*fs xs */
+/* 1.417em;/*lh xs */
+/* 1.7em;/*fs s */
+/*  1.5em;/*lh s */
+
+
+body{
+  font-family: 'gt_americathin';
+  font-size: 1.7rem;
+  line-height: 1.5em;
+  padding-bottom: 0em;
+  color: rgb(30, 30, 30);
 
 }
-
-@font-face {
-    font-family: 'gt_americathin';
-    src: url('./fonts/gt-america-thin-webfont.woff2') format('woff2'),
-         url('./fonts/gt-america-thin-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+a{
+  text-decoration: none;
+  color:inherit;
+}
+a:hover{
+  text-decoration: underline;
+  color:inherit;
+}
+h1{
 
 }
+h2{
+  font-family: 'gt_americathin';
+  font-size: 1.7rem;
+  line-height: 1.5em;
+  margin-bottom: 1.5em;
+  letter-spacing: 0;
 
-@font-face {
-    font-family: 'gt_americaultra_light';
-    src: url('./fonts/gt-america-ultra-light-webfont.woff2') format('woff2'),
-         url('./fonts/gt-america-ultra-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 }
+h3{
+  font-family: 'gt_americathin';
+  font-size: 1.275rem;/*fs xs */
+  line-height: 1.417em;/*lh xs */
+  margin: 0;
+  margin-bottom: 1.1;
+  letter-spacing: 0;
+}
+
+p{
+  font-family: 'gt_americathin';
+  margin-bottom: 1.5em;
+}
+.p-small{
+  font-family: 'gt_americathin';
+  font-size: 1.275rem;/*fs xs */
+  margin-bottom: 0;
+  line-height: 1.417em;/*lh xs */
+}
+
+ul {
+  list-style: none; }
+ul {
+  padding-left: 0;
+  margin-top: 0; 
+  padding-top: 0;
+  margin-bottom: 0em;}
+ul ul {
+  margin: 0;
+  font-size: 100%; }
+
+ul li:first-child{
+  margin-top: 0.7085em;/*lh xxs */
+}
+
+
